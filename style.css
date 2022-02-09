@@ -1,0 +1,182 @@
+
+body::before {
+    display:block;
+    content:'';
+    height: 80px;
+}
+
+/*Navbar*/
+
+nav {background-color: rgb(23, 23, 95);}
+
+#logo {width: 50px;}
+
+
+#motto {
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+.navbar-toggler-icon { color: cornsilk;}
+
+
+/*First Carousel*/
+.slide {
+    height: 90vh;
+}
+
+.first-p { 
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+    
+}
+
+#first-h {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(68, 68, 221);
+}
+
+
+
+#list-item {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#list-item:hover {
+   border-bottom: white 2px solid;
+   
+}
+
+p { display: block;
+max-width: 540px;
+font-family: Arial, Helvetica, sans-serif;}
+
+h1 {
+    font-family: 'Aclonica', sans-serif;
+    font-weight: 800;
+    color:rgb(23, 23, 95);
+    
+}
+
+#meet {font-family: 'Patua One', cursive;}
+
+
+
+.item {
+    height: 22rem;
+    background: rgb(150, 142, 71);
+}
+
+.carousel-item {
+    max-height: 34rem;
+    min-height: 12rem;
+    background: rgb(19, 13, 13, 0.5);
+    position: relative;
+}
+
+.carousel-item .container {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.carousel-inner {
+    background: rgba(207, 164, 164, 0.9);
+}
+
+.carousel-item img{object-position: center;
+    object-fit: cover;
+-o-object-position: center;}
+
+.special {
+    font-family: 'DM Serif Text', serif;
+    font-weight: 700;
+}
+
+/*Founder Area*/
+
+#founder{ min-width: 30rem;}
+
+.picture-carousel {
+    object-fit: cover;
+    object-position: top;
+
+}
+
+#header-1 {
+    border-bottom: 1px rgb(146, 146, 238) solid;
+    padding-bottom: 15px;
+}
+
+/*Destinations*/
+
+.card {
+    box-shadow: 1.5px 1.8px rgb(185, 184, 184);
+  }
+
+  #redo {font-family: 'Lobster', cursive;
+color: rgb(46, 46, 189); }
+
+/*Newsletter*/
+.newsletter {
+    padding: 80px 0;
+    }
+    
+    .newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+
+    .newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px; }
+
+    .newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+    }
+
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+    }
+    
+    .newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    color: #fff;
+    font-weight:600;
+    }
+
+    /*Responsiveness*/
+
+    @media (max-width: 530px) {
+        #packages {
+            font-size: 0.8rem;
+        }
+
+        .founder-row {
+            display: flex;
+        flex-direction: column;
+        }
+    }
+
+    @media (min-width: 668px) and (max-width: 811px)
+    {
+        .founder-row {
+            display: flex;
+        flex-direction: column;
+        }
+
+        .package-text {
+            display: block;
+            width: 15rem;
+        }
+    }

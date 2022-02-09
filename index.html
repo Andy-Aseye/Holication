@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Anton&family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Mukta:wght@200&family=Patua+One&family=Squada+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Mukta:wght@200&family=Patua+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Patua+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+     <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+     <title>The beach</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md py-3 fixed-top">
+        <div class="container"><a href="#" class="navbar-brand"><img src="pictures/Lemonade_glass.svg" id="logo"><p id="motto">la vie est belle</p></a>
+            
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list text-white"></i> 
+        </button>
+            
+        <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#destinations" class="nav-link lead text-white" id="list-item">Destinations</a>
+            </li>
+            <li class="nav-item">
+                <a href="#packages" class="nav-link lead text-white" id="list-item" >Packages</a>
+            </li>
+            <li class="nav-item">
+                <a href="#team" class="nav-link lead text-white" id="list-item">Our team</a>
+            </li>
+            <li class="nav-item">
+                <a href="#gallery" class="nav-link text-white lead" id="list-item">Gallery</a>
+            </li>
+        </ul>
+        
+    </div>
+
+        </div>
+
+    </nav>
+
+    <!--Welcome Area-->
+    <section class=" p-5 p-lg-0 pt-lg-5 text-center text-sm-center">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1 class="my-4 text-start"><strong>Welcome to <br><span class="text-danger">Holi-cation</span></strong></h1>
+                    <h3 id="first-h">Are you tired of your daily stressful routine?</h3>
+                    <p class="lead first-p text-secondary">Are you tired of living today just like yesterday and the day before? Do you need a break on a holiday vacation? If yes, then you are in the right place.
+                        we provide the best choices of vacations destinations for you and your significant other, and or family. Have fun picking from our page, and enjoy!
+                    </p>
+
+                </div>
+                <img src="pictures/work.svg" class="img-fluid w-50 d-none d-sm-block my-5" alt="logo of woman working">
+            </div>
+        </div>
+    </section>
+
+    <!--Slideshow-->
+   <section>
+       <div >
+    <div id="carouselExampleCaptions" class="carousel slide my-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pictures/safariii.jpg" class="d-block img-fluid" alt="..." id="slide-image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Safari</h5>
+              <ul>
+                <li>Tourists: 10 million tourists a year. </li>
+                <li>Official Language: English/ Swahili</li>
+                <li>Architecture: Safari-style</li>
+              </ul>
+            </div>
+            </div>
+          <div class="carousel-item">
+            <img src="pictures/paros.jpg" class="d-block img-fluid" alt="..." id="slide-image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Paris</h5>
+              <ul>
+                <li>Tourists: 30 million tourists a year. </li>
+                <li>Official Language: French</li>
+                <li>Architecture: Haussmann</li>
+              </ul>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pictures/singaporee.jpg" class="d-block w-100 img-fluid" alt="..." id="slide-image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Singapore</h5>
+              <ul>
+                <li>Tourists: 18.5 million tourists a year. </li>
+                <li>Official Language: Mandarin Chinese</li>
+                <li>Architecture: Art Deco</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       </div>
+   </section>
+
+   <!--Packages-->
+   
+    <section class=" p-5 p-lg-0 pt-lg-5 text-center text-sm-center" id="packages">
+        <div class="container">
+            <h1 class="text-center my-3 special">Packages</h1>
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="text-start p-5">
+                    <img src="pictures/diamond.png" class="w-25 img-fluid">
+                    <h3 class="my-3">Diamond Subscription</h3>
+                    <p class="lead">This package includes: </p>
+                        <ul class="text-start lead package-text">
+                            <li><i class="bi bi-clock p-2"></i> Duration: 2 weeks</li>
+                            <li><i class="bi bi-building p-2"></i> Residence: 2 bedrooms at a 5-star hotel</li>
+                            <li><i class="bi bi-basket p-2"></i> Meal-plan: Free breakfast and supper</li>
+                            <li><i class="bi bi-truck p-2"></i> Tour: Tour of the city with personal guide</li>
+                            <li><i class="bi bi-wifi p-2"></i> Wi-fi: Yes</li>
+                            <li>Extras: 3 night visit to an exclusive bar (as selected by guests)</li>
+                            <li>Price: $4000 </li>
+                        </ul>
+                        
+                </div>
+                <div class="text-start p-5">
+                    <img src="pictures/coin.png" class="w-25 img-fluid">
+                  <h3 class="my-3">Gold Subscription</h3>
+                    <p class="lead">This package includes: </p>
+                        <ul class="text-start lead package-text">
+                            <li><i class="bi bi-clock p-2"></i> Duration: 2 weeks</li>
+                            <li><i class="bi bi-building p-2"></i> Residence: 2 bedrooms at a 5-star hotel</li>
+                            <li><i class="bi bi-basket p-2"></i> Meal-plan: Free breakfast and supper</li>
+                            <li><i class="bi bi-truck p-2"></i> Tour: Tour of the city with personal guide</li>
+                            <li><i class="bi bi-wifi p-2"></i> Wi-fi: Yes</li>
+                            <li>Extras: 1 night visit to an exclusive bar (as selected by guests)</li>
+                            <li>Price: $3550 </li>
+                        </ul>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="text-start p-5">
+                    <img src="pictures/silver.png" class="w-25 img-fluid">
+                  <h3 class="my-3">Silver Subscription</h3>
+                    <p class="lead">This package includes: </p>
+                        <ul class="text-start lead package-text">
+                            <li><i class="bi bi-clock p-2"></i> Duration: 1 week</li>
+                            <li><i class="bi bi-building p-2"></i> Residence: 1 bedroom at a 5-star hotel</li>
+                            <li><i class="bi bi-basket p-2"></i> Meal-plan: Free breakfast and supper</li>
+                            <li><i class="bi bi-truck p-2"></i> Tour: Tour of the city with personal guide</li>
+                            <li><i class="bi bi-wifi p-2"></i> Wi-fi: Yes</li>
+                            <li>Price: $3200</li>
+                        </ul>
+                        
+                </div>
+                <div class="text-start p-5">
+                    <img src="pictures/bronze.png" class="w-25 img-fluid">
+                  <h3 class="my-3">Bronze Subscription</h3>
+                    <p class="lead">This package includes: </p>
+                        <ul class="text-start lead package-text">
+                            <li><i class="bi bi-clock p-2"></i> Duration: 1 week</li>
+                            <li><i class="bi bi-building p-2"></i> Residence: 1 bedroom at a 5-star hotel</li>
+                            <li><i class="bi bi-basket p-2"></i> Meal-plan: Free supper</li>
+                            <li><i class="bi bi-truck p-2"></i> Tour: Tour of the city with personal guide</li>
+                            <li><i class="bi bi-wifi p-2"></i> Wi-fi: Yes</li>
+                            <li>Price: $2700</li>
+                        </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--Intro. to founder-->
+    <section class=" p-lg-0 pt-lg-5 text-start text-sm-center my-5" id="team">
+    <div class="container-fluid bg-dark text-white">
+        <div class="d-sm-flex align-items-center justify-content-between founder-row">
+            <img src="pictures/staff.jpg" class="w-50 my-sm-7 img-fluid col" id="founder" alt="logo of woman working">
+            <div class="p-4 col">
+               <h2 class="text-start text-success" id="meet">Meet our Team</h2>
+                <p class="lead text-start my-3">Welcome and thank you for visiting our website.
+                   Our Company purpose, to provide best vacation destinations and and packages at an affordable cost. Our primary ambition is to maximize customer satisfaction and provide a lifetime experience. 
+                  This purpose has been evident since the establishment of our corporation when our founders set out to build a premium quality service company.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Gallery Carousel-->
+
+<section class="mt-5  slide" id="gallery">
+    <div id="carouselExampleFade" class="carousel carousel-fade my-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pictures/picture1.jpg" class="d-block w-100 picture-carousel img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pictures/holidays 5.jpg" class="d-block w-100 picture-carousel img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pictures/picture3.jpg" class="d-block w-100 picture-carousel img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pictures/picture4.jpg" class="d-block w-100 picture-carousel img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pictures/picture5.jpg" class="d-block w-100 picture-carousel img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pictures/picture4.jpg" class="d-block w-100 picture-carousel img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pictures/holidays 8.jpg" class="d-block w-100 picture-carousel img-fluid" alt="...">
+          </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+
+<section id="destinations" class="p-lg-4">
+    <div class="container">
+        <h2 class="text-center text-dark my-5" id="header-1">Top pick destinations</h2>
+            <div class="row g-4">
+                <h2 class="text-center my-3" id="redo">Africa</h2>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <img src="pictures/One-above.jpg" class="mb-3 w-100">
+                         <h4 class="card-title b-3 text-start">The One Above</h4>
+                         <ul class="text-start">
+                             <li>Location: Cape Town, South Africa</li>
+                             <li>Price per night: $120 </li>
+                             <li>Hospitality: 4.7</li>
+                         </ul>
+                        </div>
+                    </div>
+                    
+                
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <img src="pictures/Ocean-House.jpg" class="w-100 mb-3">
+                         <h4 class="card-title b-3 text-start">Morukuru Ocen HouseDe</h4>
+                         <ul class="text-start">
+                             <li>Location: Hoop, South Africa</li>
+                             <li>Price per night: </li>
+                             <li>Hospitality: </li>
+                         </ul>
+                        </div>
+                    </div>
+                    
+                
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card shadow" block>
+                        <div class="card-body text-center">
+                            <img src="pictures/Sofitel.jpg" class="mb-3 w-100">
+                         <h4 class="card-title b-3 text-start">Sofitel Legend Old Cataract</h4>
+                        <ul class="text-start">
+                            <li>Location: Aswan, Egypt</li>
+                            <li>Price per night: </li>
+                            <li>Hospitality: 4.8</li>
+                        </ul>
+                    
+                        </div>
+                    </div>
+                    
+                
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card shadow" id="block">
+                        <div class="card-body text-center">
+                            <img src="pictures/Kempinski.jpg" class="mb-3 w-100">
+                         <h3 class="card-title b-3 text-start">Kempinski Luxury Hotel</h3>
+                       <ul class="text-start">
+                            <li>Location: Accra, Ghana</li>
+                            <li>Price per night: $237</li>
+                            <li>Hospitality: 4.9</li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                
+                </div>
+            </div>  
+            <div class="row g-4 my-5">
+              <h2 class="text-center my-3" id="redo">Asia</h2>
+              <div class="col-md-6 col-lg-3">
+                  <div class="card shadow">
+                      <div class="card-body text-center">
+                          <img src="pictures/outdoor-pool.jpg" class="mb-3 w-100">
+                       <h4 class="card-title b-3 text-start">The Siam Hotel</h4>
+                       <ul class="text-start">
+                           <li>Location: Bangkok, Thailand</li>
+                           <li>Price per night: $230 </li>
+                           <li>Hospitality: 4.75</li>
+                       </ul>
+                      </div>
+                  </div>
+                  
+              
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="card shadow">
+                      <div class="card-body text-center">
+                          <img src="pictures/Carlton.jpg" class="w-100 mb-3">
+                       <h4 class="card-title b-3 text-start">The Ritz Carlton</h4>
+                       <ul class="text-start">
+                           <li>Location: Hong-Kong, China</li>
+                           <li>Price per night: $180</li>
+                           <li>Hospitality: 4.68 </li>
+                       </ul>
+                      </div>
+                  </div>
+                  
+              
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="card shadow" block>
+                      <div class="card-body text-center">
+                          <img src="pictures/front-facade.jpg" class="mb-3 w-100">
+                       <h4 class="card-title b-3 text-start">Umaid Bawan Palace</h4>
+                      <ul class="text-start">
+                          <li>Location: Jodhpur, India</li>
+                          <li>Price per night: $201 </li>
+                          <li>Hospitality: 4.7</li>
+                      </ul>
+                  
+                      </div>
+                  </div>
+                  
+              
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="card shadow" id="block">
+                      <div class="card-body text-center">
+                          <img src="pictures/private-pool.jpg" class="mb-3 w-100">
+                       <h3 class="card-title b-3 text-start">Six Senses Ninh</h3>
+                     <ul class="text-start">
+                          <li>Location: Nha Trang, Vietnam</li>
+                          <li>Price per night: $227</li>
+                          <li>Hospitality: 4.4</li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+              
+              </div>
+          </div>  
+          <div class="row g-4 my-5">
+            <h2 class="text-center my-3" id="redo">Europe</h2>
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                        <img src="pictures/exteriors-facade.jpg" class="mb-3 w-100">
+                     <h4 class="card-title b-3 text-start">Hotel Sacher Salzburg</h4>
+                     <ul class="text-start">
+                         <li>Location: Salzburg, Austrai</li>
+                         <li>Price per night: $275 </li>
+                         <li>Hospitality: 4.78</li>
+                     </ul>
+                    </div>
+                </div>
+                
+            
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                        <img src="pictures/root-pool.jpg" class="w-100 mb-3">
+                     <h4 class="card-title b-3 text-start"> Châteaux Hotel</h4>
+                     <ul class="text-start">
+                         <li>Location: Platis Gialos, Greece</li>
+                         <li>Price per night: $145</li>
+                         <li>Hospitality: 4.53</li>
+                     </ul>
+                    </div>
+                </div>
+                
+            
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow" block>
+                    <div class="card-body text-center">
+                        <img src="pictures/root-exteriors.jpg" class="mb-3 w-100">
+                     <h4 class="card-title b-3 text-start">Villa d'Este</h4>
+                    <ul class="text-start">
+                        <li>Location: Cernobbio, Italy</li>
+                        <li>Price per night: $610 </li>
+                        <li>Hospitality: 4.9</li>
+                    </ul>
+                
+                    </div>
+                </div>
+                
+            
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow" id="block">
+                    <div class="card-body text-center">
+                        <img src="pictures/lobby.jpg" class="mb-3 w-100">
+                     <h3 class="card-title b-3 text-start">Raffles Istanbul</h3>
+                   <ul class="text-start">
+                        <li>Location: Insstabul, Turkey</li>
+                        <li>Price per night: $270</li>
+                        <li>Hospitality: 4.9</li>
+                    </ul>
+                  </div>
+                </div>
+                
+            
+            </div>
+        </div>  
+    </div>
+</section>
+
+<section>
+  <div class="bg-dark text-start text-white p-5">
+    <div class="container w-100 w-md-75">
+      <h3 class="w-md-75 w-100">To get started, click on the button below and fill out form with details. 
+        For early booking, select priority on the form. We look forward to making your experience a memorable one!</h3>
+        <button class="btn btn-danger my-4" data-bs-toggle="modal" data-bs-target="#enroll">Let's get started</button>
+        </div>
+      </section>
+      <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="enrollLabel">Booking Form</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p class="lead">Fill out this form with details</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">
+                          First Name:
+                        </label>
+                        <input type="text" class="form-control" id="first-name" placeholder="First Name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="sur-name" class="col-form-label">
+                        Sur-name:
+                      </label>
+                      <input type="text" class="form-control" id="sur-name" placeholder="Sur-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="location" class="col-form-label">
+                      Location:
+                    </label>
+                    <input type="text" class="form-control" id="first-name" placeholder="location">
+                </div>
+                  <div class="mb-3">
+                      <label for="university" class="col-form-label">
+                        Number of people:
+                      </label>
+                      <input type="number" class="form-control" id="first-name" placeholder="number of guests">
+                  </div>
+                  <div class="mb-3">
+                      <label for="telephone-number" class="col-form-label">
+                        Telephone-number:
+                      </label>
+                      <input type="tel" class="form-control" id="first-name" placeholder="telephone-number">
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="col-form-label">
+                      Email:
+                    </label>
+                    <input type="email" class="form-control" id="first-name" placeholder="email">
+                </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+</section>
+
+<!--Newsletter-->
+<section>
+  <section class="newsletter bg-secondary">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-12">
+      <div class="content">
+        <h2 class="text-white">SUBSCRIBE TO OUR NEWSLETTER</h2>
+      <div class="input-group">
+             <input type="email" class="form-control" placeholder="Enter your email">
+             <span class="input-group-btn">
+             <button class="btn bg-danger" type="submit">Subscribe now</button>
+             </span>
+              </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </section>
+</section>
+
+<!--Footer-->
+<section>
+
+</section>
+
+   
+   
+   
+   
+   <!--<section>
+      <div class="container b-dark text-white text-center">
+
+
+      </div>
+
+
+Video link
+<section>div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+  </div></section>
+
+
+
+
+   </section>-->
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+      
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+</body>
+</html>
